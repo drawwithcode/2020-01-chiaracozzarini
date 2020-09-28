@@ -21,16 +21,16 @@ function draw(){
   //TEXT
   push()
   textAlign(CENTER);
-  stroke(lerpColor(color('snow'),color('MidnightBlue'),frameCount/350));
+  stroke(lerpColor(color('snow'),color('MidnightBlue'),frameCount/400));
   textSize(30);
-  fill(lerpColor(color('snow'),color('MidnightBlue'),frameCount/350));
+  fill(lerpColor(color('snow'),color('MidnightBlue'),frameCount/400));
   text("Cry: click to free your tears :'(", 0, 37, width);
   pop()
 
   push()
 
   strokeWeight(1.5);
-  stroke(lerpColor(color('snow'),color('MidnightBlue'),frameCount/700));
+  stroke(lerpColor(color('snow'),color('MidnightBlue'),frameCount/1000));
   noFill();
 
   t = frameCount - 50;
