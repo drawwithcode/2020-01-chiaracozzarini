@@ -30,7 +30,7 @@ function draw(){
   push()
 
   strokeWeight(1.5);
-  stroke(lerpColor(color('snow'),color('MidnightBlue'),frameCount/1000));
+  stroke(lerpColor(color('snow'),color('MidnightBlue'),frameCount/1200));
   noFill();
 
   t = frameCount - 50;
